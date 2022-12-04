@@ -5,9 +5,9 @@ import java.util.stream.IntStream;
 
 public class Sort {
     public static void main(String[] args) {
-        int[] arr = {1, 100, 3, 2, 19 ,15};
-        int[] arrMerge = mergeSort(arr);
-        for (int i:arrMerge
+        int[] arr = {1, 100, 3, 2, 19 ,150};
+        quickSort(arr);
+        for (int i:arr
              ) {
             System.out.println(i);
         }
@@ -85,8 +85,52 @@ public class Sort {
         return arr;
     }
 
-    public static void testSwap(int[] testArr){
-        testArr[0] = 0;
-        testArr[1] = 2;
+    public static void quickSort(int[] arr){
+        if (arr.length <= 1) return;
+        int pivot = arr.length-1;
+        int finalPivot = partition(arr, pivot);
+        int[] arr1 = IntStream.range(0, arr.length).filter(i -> i < finalPivot).map(i->arr[i]).toArray();
+        int[] arr2 = IntStream.range(0, arr.length).filter(i -> i > finalPivot).map(i->arr[i]).toArray();
+        quickSort(arr1);
+        quickSort(arr2);
+        int tmpIdx = 0;
+        for(int val:arr1){
+            arr[tmpIdx] = val;
+            tmpIdx++;
+        }
+        tmpIdx++;   //Skip pivot
+        for(int val:arr2){
+            arr[tmpIdx] = val;
+            tmpIdx++;
+        }
+
+    }
+
+    private static int partition(int[] arr, int pivot) {
+        //i: Elements bigger than pivot
+        //j: Elements smaller than pivot
+        int i=-1, j=0;
+        int pivotVal = arr[pivot];
+        while(j < pivot){
+            if (arr[j] < pivotVal) {
+                i++;
+                if(arr[i] > pivotVal) swap(arr, i, j);
+            }
+            j++;
+        }
+        i++;
+        swap(arr,i, pivot);
+
+        return i;
+    }
+
+
+    public static void swap(int[] arr, int index1, int index2){
+        if(index1 < 0 || index2 >= arr.length){
+            return;
+        }
+        int tmp = arr[index1];
+        arr[index1] = arr[index2];
+        arr[index2] = tmp;
     }
 }
