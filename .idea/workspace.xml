@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe97cad-121d-497c-8e40-a787f9c5807a" name="Changes" comment="add quicksort&#10;add Hashtable">
+    <list default="true" id="0fe97cad-121d-497c-8e40-a787f9c5807a" name="Changes" comment="add Graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.GraphMain">
-    <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.GraphMain" />
+}</component>
+  <component name="RunManager" selected="Application.GenericsMain">
+    <configuration name="BoxingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.BoxingMain" />
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.HashTableMain" />
+    <configuration name="ExceptionHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ExceptionHandle" />
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.selfdefined.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructures.LinkedListMain" />
+    <configuration name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.GenericsMain" />
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.selfdefined.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.Search" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.Sort" />
+    <configuration name="StringConstantPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.StringConstantPool" />
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphMain" />
-        <item itemvalue="Application.HashTableMain" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Search" />
-        <item itemvalue="Application.LinkedListMain" />
+        <item itemvalue="Application.GenericsMain" />
+        <item itemvalue="Application.ExceptionHandle" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StringConstantPool" />
+        <item itemvalue="Application.BoxingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1670035172268</updated>
       <workItem from="1670035173595" duration="11847000" />
-      <workItem from="1670114008546" duration="13293000" />
+      <workItem from="1670114008546" duration="13941000" />
+      <workItem from="1670249559259" duration="3367000" />
+      <workItem from="1670383309344" duration="9760000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1670138264317</created>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670143719246</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Graph">
+      <created>1670165511944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670165511944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add quicksort&#10;add Hashtable" />
-    <option name="LAST_COMMIT_MESSAGE" value="add quicksort&#10;add Hashtable" />
+    <MESSAGE value="add Graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Graph" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
