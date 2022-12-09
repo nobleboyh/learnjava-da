@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe97cad-121d-497c-8e40-a787f9c5807a" name="Changes" comment="add Graph">
+    <list default="true" id="0fe97cad-121d-497c-8e40-a787f9c5807a" name="Changes" comment="add test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +38,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GenericsMain">
-    <configuration name="BoxingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.BoxingMain" />
-      <module name="datastructures_and_algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestInterface8">
     <configuration name="ExceptionHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.ExceptionHandle" />
       <module name="datastructures_and_algorithms" />
@@ -91,8 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConstantPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.StringConstantPool" />
+    <configuration name="TestInterface8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestInterface8" />
+      <module name="datastructures_and_algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestMain" />
       <module name="datastructures_and_algorithms" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestInterface8" />
+        <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.GenericsMain" />
         <item itemvalue="Application.ExceptionHandle" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StringConstantPool" />
-        <item itemvalue="Application.BoxingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +125,8 @@
       <workItem from="1670035173595" duration="11847000" />
       <workItem from="1670114008546" duration="13941000" />
       <workItem from="1670249559259" duration="3367000" />
-      <workItem from="1670383309344" duration="9760000" />
+      <workItem from="1670383309344" duration="9800000" />
+      <workItem from="1670572902173" duration="6930000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1670138264317</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670165511944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add test">
+      <created>1670429216619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670429216619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +184,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add quicksort&#10;add Hashtable" />
     <MESSAGE value="add Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Graph" />
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
