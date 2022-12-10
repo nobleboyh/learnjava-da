@@ -48,12 +48,7 @@ interface MyFunctionalInterface{
 }
 
 class TestFunctionalInterface {
-    public MyFunctionalInterface myFunctionalInterface = new MyFunctionalInterface() {
-        @Override
-        public void test() {
-            data = 11;
-        }
-    };
+    public MyFunctionalInterface myFunctionalInterface = Hoang1::hoang;
 
     public int data = 10;
 
@@ -64,4 +59,10 @@ class TestFunctionalInterface {
     };
 
 
+}
+
+class Hoang1{
+    static public void hoang() {
+        System.out.println("Hoang");
+    }
 }
